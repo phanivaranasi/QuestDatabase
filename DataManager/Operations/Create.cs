@@ -4,13 +4,13 @@ using System.Data;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace DataManager.Operations
+namespace DataManager
 {
-    public class OperationManager<T> where T : class
+    public static partial class Operations
     {
-        public void Create(IDbConnection db)
+         public static void Create<T>(this T obj)
         {
-
+           
         }
     }
 }

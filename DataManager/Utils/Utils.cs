@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataManager.Utils
 {
-   public enum DataTypes
+   public enum DataBaseType
     {
         MSSQL=10,
         POSTRESQL=20,

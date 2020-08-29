@@ -6,4 +6,8 @@
     <RootNamespace>ConsoleApp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataManager\DataManager.csproj" />
+  </ItemGroup>
+
 </Project>
